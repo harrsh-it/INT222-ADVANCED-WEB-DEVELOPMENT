@@ -1,0 +1,48 @@
+
+WHAT IS NODE.js ?
+
+--NODE.js is a javascript runtime built on Chrome's V8 javascript engine
+--NODE.js is a javascript running on the server
+--NODE.js is an event-drien server-side Javascript environment
+
+In 2009 an idea came in the mind of Ryan dahl that why not run 
+javascript outside browser so he took V8 engine and embedded in a c++ program and called it NODE.exe later on became Node.js
+
+
+WHEN TO USE NODE.js?
+--I/O Bound
+--Data Streaming Application
+--Real time chat Application
+
+
+NODE.js is a single thread but can handle multiple task because of NON-Blocking single thread property
+
+NODE PACKAGE MANAGER(npm)
+--version check => npm -v
+
+
+NODE js REPL
+--The REPL  feature of Node is very useful in experimenting with Node.js code and
+to debug Javascript codes
+
+R - Read -- read user's input ,parses the input into Javascript data structure, and stores in memory
+E - Eval -- Takes and evaluates the data structure
+p - Print -- prints the results
+L - Loop -- loop the above command until the user presses ctrl+c twice
+
+
+
+For accessing the REPL,open terminal and type 'node'and can do these follows actions
+--js Expression
+--Use varirble
+--Multiline code/loops
+--use _ to get last result
+--We can use editor mode
+      -type '.editor' in terminal 
+
+
+
+NODE.js CORE MODULE 
+--Consider modules to be the same as JAVASCRIPT LIBRARY.
+--A set of function you want to include in your application.
+--Node.js has a set of built in modules which you can use without any further installation.
