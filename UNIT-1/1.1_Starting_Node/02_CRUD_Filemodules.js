@@ -21,4 +21,12 @@ const org_data = read_data.toString();
 console.log(org_data);
 
 //remane file
-fs.renameSync('read.txt','read1.txt')
+// fs.renameSync('read.txt','read1.txt')
+
+//Encoding 
+const org_data2 = fs.readFileSync('read.txt',"utf8")
+console.log(org_data2); 
+
+
+//Delete 
+fs.unlinkSync("read.txt")

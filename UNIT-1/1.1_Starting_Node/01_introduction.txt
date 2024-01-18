@@ -1,6 +1,7 @@
 
 WHAT IS NODE.js ?
 
+--Node.js is a runtime environment for javascript which base on V8 engine
 --NODE.js is a javascript runtime built on Chrome's V8 javascript engine
 --NODE.js is a javascript running on the server
 --NODE.js is an event-drien server-side Javascript environment
@@ -16,6 +17,11 @@ WHEN TO USE NODE.js?
 
 
 NODE.js is a single thread but can handle multiple task because of NON-Blocking single thread property
+--event loop work with stack of events
+
+
+
+CALLBACK FUNCTION??
 
 NODE PACKAGE MANAGER(npm)
 --version check => npm -v
@@ -32,7 +38,7 @@ L - Loop -- loop the above command until the user presses ctrl+c twice
 
 
 
-For accessing the REPL,open terminal and type 'node'and can do these follows actions
+For accessing the REPL,open terminal and type 'node'and can do these follows these actions
 --js Expression
 --Use varirble
 --Multiline code/loops
@@ -46,3 +52,11 @@ NODE.js CORE MODULE
 --Consider modules to be the same as JAVASCRIPT LIBRARY.
 --A set of function you want to include in your application.
 --Node.js has a set of built in modules which you can use without any further installation.
+
+
+Bytes Code VS Machine Code???
+
+
+
+Node.js runs in a single process and the application code runs in a single thread and therby needs less resources then other platform
+All the user requests to your web application will be handle by a single thread all the O/I work from asynchronous   
